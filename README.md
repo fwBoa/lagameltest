@@ -1,0 +1,2 @@
+# lagameltest
+static test
