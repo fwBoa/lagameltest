@@ -31,7 +31,7 @@
 }
 
 .btn {
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.5rem;
   outline: none;
   border: none;
   font-size: 1rem;
@@ -192,18 +192,19 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1rem;
+  background-color: #ffc135;
 }
 
 .banner__card:nth-child(1) {
-  background-image: url("./assets/noah-buscher-x8ZStukS2PM-unsplash.jpg");
+  background-image: url("./assets/planet-7014517_1280.png");
 }
 
 .banner__card:nth-child(2) {
-  background-image: url("assets/DALL·E-2022-11-21-13.10.41-Add-new-environement.png");
+  background-image: url("./assets/man-5433472_1280.png");
 }
 
 .banner__card:nth-child(3) {
-  background-image: url("./assets/photo-1598769398698-bab7f1b4cadd.avif");
+  background-image: url("./assets/brett-jordan-phUtWl8RyFE-unsplash.jpg");
 }
 
 .banner__card p {
@@ -220,6 +221,7 @@ nav {
 }
 
 .order__container h3 {
+  max-width: -moz-fit-content;
   max-width: fit-content;
   margin-inline: auto;
   margin-bottom: 1rem;
