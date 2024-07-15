@@ -369,8 +369,25 @@ nav {
   color: #ffffff;
   text-align: center;
 }
+@media(width < 540px){
+  .header__image {
+      display: none;
+    }
+    .header__content h1 {
+      max-width: 300px;
+      font-size: 3.2rem;
+    }
+        .header__content h2 {
+          max-width: 300px;
+        }
+        .header__container{
+          
+          justify-content: center;
+            align-items: center;
+        }
+}
 
-@media (width > 540px) {
+@media(width > 540px) {
   .banner__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -382,6 +399,7 @@ nav {
   .order__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+     
 }
 
 @media (width > 768px) {
@@ -438,9 +456,7 @@ nav {
     margin-inline-start: unset;
   }
 
-  .header__content h1 {
-    text-align: left;
-  }
+ 
 
   .banner__card {
     padding: 1.5rem;
@@ -483,7 +499,7 @@ nav {
   }
 }
 
-@media (width > 1024px) {
+@media screen and (max-width: 1024px){
   .order__grid {
     gap: 2rem;
   }
